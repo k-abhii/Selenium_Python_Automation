@@ -71,3 +71,21 @@ class TestExample:
 #
 # ============================== 4 passed in 0.31s ==============================
 
+# ==========scope = "class"==========
+# ============================= test session starts =============================
+# collecting ... collected 4 items
+#
+# test_fixturesDemo.py::TestExample::test_fixtureDemo I will be executing first
+# PASSED               [ 25%]I will execute steps in fixtureDemo method
+#
+# test_fixturesDemo.py::TestExample::test_fixtureDemo1 PASSED              [ 50%]I will execute steps in fixtureDemo1 method
+#
+# test_fixturesDemo.py::TestExample::test_fixtureDemo2 PASSED              [ 75%]I will execute steps in fixtureDemo2 method
+#
+# test_fixturesDemo.py::TestExample::test_fixtureDemo3 PASSED              [100%]I will execute steps in fixtureDemo3 method
+# I will be executed last
+#
+#
+# ============================== 4 passed in 0.28s ==============================
+
+

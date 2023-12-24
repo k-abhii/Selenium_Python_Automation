@@ -1,7 +1,7 @@
 import pytest
 
 
-@pytest.fixture()
+@pytest.fixture(scope="class")
 def setup():
     print("I will be executing first")
     yield
