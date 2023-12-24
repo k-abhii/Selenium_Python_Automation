@@ -31,6 +31,13 @@ def test_SecondCreditCard():
     b=6
     assert a+2 == b, "Addition Do not match"
 
+@pytest.fixture()
+def setup():
+    print("I will be executing first")
+def test_fixtureDemo():
+    print("I will execute steps  in fixtureDemo method")
+
+
 # C:\Users\hp\PycharmProjects\selenium\RSA\Pytest>py.test test_demo1.py test_Demo2.py  -v -s
 # ========================================================================= test session starts =========================================================================
 # platform win32 -- Python 3.8.2, pytest-7.4.3, pluggy-1.3.0 -- c:\python38\python.exe
