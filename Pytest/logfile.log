@@ -2,3 +2,11 @@
 2023-12-23 13:48:02,146 : WARNING : Pytest.test_logging : Something is in warning
 2023-12-23 13:48:02,148 : ERROR : Pytest.test_logging : A major error has happened
 2023-12-23 13:48:02,148 : CRITICAL : Pytest.test_logging : Critical Issues
+2023-12-24 20:04:21,362 : INFO : Pytest.test_logging : Information Statement
+2023-12-24 20:04:21,362 : WARNING : Pytest.test_logging : Something is in warning
+2023-12-24 20:04:21,363 : ERROR : Pytest.test_logging : A major error has happened
+2023-12-24 20:04:21,364 : CRITICAL : Pytest.test_logging : Critical Issues
+2023-12-24 20:06:09,792 : INFO : Pytest.test_logging : Information Statement
+2023-12-24 20:06:09,794 : WARNING : Pytest.test_logging : Something is in warning
+2023-12-24 20:06:09,797 : ERROR : Pytest.test_logging : A major error has happened
+2023-12-24 20:06:09,797 : CRITICAL : Pytest.test_logging : Critical Issues

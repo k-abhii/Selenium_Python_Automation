@@ -29,3 +29,20 @@ class TestExample2:
 # Kumar
 # rahulshettyacademy.com
 
+#
+# collecting ... collected 5 items
+#
+# test_demo1.py::test_firstProgram PASSED                                  [ 20%]Hello
+#
+# test_demo1.py::test_secondProgram XPASS                                  [ 40%]Good Morning
+#
+# test_demo1.py::test_crossBrowser[crossBrowser0] PASSED                   [ 60%]Abhimanyu
+#
+# test_demo1.py::test_crossBrowser[crossBrowser1] PASSED                   [ 80%]Abhimanyu
+#
+# test_demo1.py::test_crossBrowser[crossBrowser2] PASSED                   [100%]SS
+#
+#
+# =================== 4 passed, 1 xpassed, 1 warning in 0.12s ===================
+
+
