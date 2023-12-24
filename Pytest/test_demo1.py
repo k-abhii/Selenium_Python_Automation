@@ -10,5 +10,6 @@ import pytest
 def test_firstProgram():
     print("Hello")
 
+@pytest.mark.xfail
 def test_secondProgram():
     print("Good Morning")

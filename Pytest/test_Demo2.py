@@ -9,6 +9,9 @@
 # you can mark (tag) tests   @pytest.mark.smoke  and then run with -m
 # -k is more optimised than -m use -m only to mention smoke or regression
 # you can skip test with @pytest.mark.skip
+# when you do xfail that particular testcase will run but in output you don't see fail or passed
+# just running but not reporting
+# use this in cases where you think this required for further test cases to run but that should not come in reporting
 import pytest
 
 
