@@ -1,0 +1,4 @@
+2023-12-23 13:48:02,146 : INFO : Pytest.test_logging : Information Statement
+2023-12-23 13:48:02,146 : WARNING : Pytest.test_logging : Something is in warning
+2023-12-23 13:48:02,148 : ERROR : Pytest.test_logging : A major error has happened
+2023-12-23 13:48:02,148 : CRITICAL : Pytest.test_logging : Critical Issues
