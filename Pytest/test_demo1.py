@@ -2,8 +2,11 @@
 # pytest method names should start with test
 # Any code should be wrapped in method only
 # Every test method in pytest is treated as testcase
+# cmd   py.test test_demo1.py test_Demo2.py -m smoke -v -s
+import pytest
 
 
+@pytest.mark.smoke
 def test_firstProgram():
     print("Hello")
 
