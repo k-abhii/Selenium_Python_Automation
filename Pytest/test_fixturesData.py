@@ -10,6 +10,7 @@ class TestExample2:
         print(dataLoad[1])
         print(dataLoad[2])
 
+
 # ============================= test session starts =============================
 # collecting ... collected 1 item
 #

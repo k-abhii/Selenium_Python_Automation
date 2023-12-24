@@ -15,6 +15,9 @@ def test_secondProgram():
     print("Good Morning")
 
 
+def test_crossBrowser(crossBrowser):
+    print(crossBrowser[1])
+
 # C:\Users\hp\PycharmProjects\selenium\RSA\Pytest>py.test test_demo1.py test_Demo2.py  -v -s
 # ========================================================================= test session starts =========================================================================
 # platform win32 -- Python 3.8.2, pytest-7.4.3, pluggy-1.3.0 -- c:\python38\python.exe
@@ -42,3 +45,18 @@ def test_secondProgram():
 #
 # -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
 # ========================================================= 3 passed, 1 skipped, 1 xpassed, 2 warnings in 0.16s =========================================================
+
+# collecting ... collected 5 items
+#
+# test_demo1.py::test_firstProgram PASSED                                  [ 20%]Hello
+#
+# test_demo1.py::test_secondProgram XPASS                                  [ 40%]Good Morning
+#
+# test_demo1.py::test_crossBrowser[chrome] PASSED                          [ 60%]chrome
+#
+# test_demo1.py::test_crossBrowser[Firefox] PASSED                         [ 80%]Firefox
+#
+# test_demo1.py::test_crossBrowser[IE] PASSED                              [100%]IE
+#
+#
+# =================== 4 passed, 1 xpassed, 1 warning in 0.10s ===================
