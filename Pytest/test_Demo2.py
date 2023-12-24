@@ -34,7 +34,7 @@ def test_SecondCreditCard():
 @pytest.fixture()
 def setup():
     print("I will be executing first")
-def test_fixtureDemo():
+def test_fixtureDemo(setup):
     print("I will execute steps  in fixtureDemo method")
 
 
@@ -65,4 +65,36 @@ def test_fixtureDemo():
 #
 # -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
 # ============================================================== 4 passed, 1 skipped, 2 warnings in 0.18s ===============================================================
+# ==NO CONNECTION ====
+# ============================= test session starts =============================
+# collecting ... collected 4 items
+#
+# test_Demo2.py::test_first SKIPPED (unconditional skip)                   [ 25%]
+# Skipped: unconditional skip
+#
+# test_Demo2.py::test_second PASSED                                        [ 50%]
+# test_Demo2.py::test_SecondCreditCard PASSED                              [ 75%]
+# test_Demo2.py::test_fixtureDemo PASSED                                   [100%]I will execute steps  in fixtureDemo method
+#
+#
+# =================== 3 passed, 1 skipped, 1 warning in 0.11s ===================
+#
+# Process finished with exit code 0
 
+# ========AFTER CONNECTION ESTABLISHED FIXTURE WILL RUN FIRST=======
+
+# ============================= test session starts =============================
+# collecting ... collected 4 items
+#
+# test_Demo2.py::test_first SKIPPED (unconditional skip)                   [ 25%]
+# Skipped: unconditional skip
+#
+# test_Demo2.py::test_second PASSED                                        [ 50%]
+# test_Demo2.py::test_SecondCreditCard PASSED                              [ 75%]
+# test_Demo2.py::test_fixtureDemo I will be executing first
+# PASSED                                   [100%]I will execute steps  in fixtureDemo method
+#
+#
+# =================== 3 passed, 1 skipped, 1 warning in 0.09s ===================
+#
+# Process finished with exit code 0
